@@ -1,7 +1,8 @@
 export default{
-  login: 'http://49.235.147.95:3001/api/user/login',
-  list: 'http://49.235.147.95:3001/api/supplier/list',
-  add: 'http://49.235.147.95:3001/api/supplier/add',
-  update: 'http://49.235.147.95:3001/api/supplier/update',
-  delete: 'http://49.235.147.95:3001/api/supplier/delete',
+  login: 'http://api.baxiaobu.com/index.php/home/v1/login',
+  list: 'https://api.baxiaobu.com/index.php/home/v5/getuser',
+  add: 'https://api.baxiaobu.com/index.php/home/v5/add',
+  update: 'https://api.baxiaobu.com/index.php/home/v5/updateUser',
+  delete: 'https://api.baxiaobu.com/index.php/home/v5/deleteUser',
+  search: 'https://api.baxiaobu.com/index.php/home/v5/findUser'
 }

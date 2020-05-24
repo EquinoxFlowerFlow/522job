@@ -8,6 +8,17 @@ import store from './store'
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 
+router.beforeEach((to, from, next) => {
+
+  const { fullPath } = to
+
+  if (!store.state.username && fullPath != '/login' ) {
+    next('/login')
+  }else{
+    next()
+  }
+})
+
 new Vue({
   router,
   store,
