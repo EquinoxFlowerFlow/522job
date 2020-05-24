@@ -8,7 +8,7 @@ import store from './store'
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 
-router.beforeEach((to, from, next) => {
+/* router.beforeEach((to, from, next) => {
 
   const { fullPath } = to
 
@@ -17,7 +17,7 @@ router.beforeEach((to, from, next) => {
   }else{
     next()
   }
-})
+}) */
 
 new Vue({
   router,
